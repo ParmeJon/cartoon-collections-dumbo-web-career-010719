@@ -9,7 +9,7 @@ end
 def summon_captain_planet(arr) # code an argument here
   # Your code here
   arr.map do |ele|
-    "#{ele[0].upcase}!"
+    "#{ele[0].upcase + ele[1..-1]}!"
   end
 end
 
